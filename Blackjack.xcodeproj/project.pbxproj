@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850B2E2F234464FF002F0129 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B2E2E234464FF002F0129 /* Input.swift */; };
+		850B2E3123446513002F0129 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B2E3023446513002F0129 /* Card.swift */; };
+		850B2E3323446531002F0129 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B2E3223446531002F0129 /* Hand.swift */; };
+		850B2E3823446564002F0129 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B2E3723446564002F0129 /* Move.swift */; };
+		850B2E3C23446600002F0129 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B2E3B23446600002F0129 /* Game.swift */; };
+		850B2E3E23446F88002F0129 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B2E3D23446F88002F0129 /* Player.swift */; };
+		850B2E4223447E73002F0129 /* Hint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B2E4123447E73002F0129 /* Hint.swift */; };
 		851B0BE123416AD500EA1612 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B0BE023416AD500EA1612 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +30,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		850B2E2E234464FF002F0129 /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		850B2E3023446513002F0129 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		850B2E3223446531002F0129 /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		850B2E3723446564002F0129 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		850B2E3B23446600002F0129 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		850B2E3D23446F88002F0129 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		850B2E4123447E73002F0129 /* Hint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hint.swift; sourceTree = "<group>"; };
 		851B0BDD23416AD500EA1612 /* Blackjack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Blackjack; sourceTree = BUILT_PRODUCTS_DIR; };
 		851B0BE023416AD500EA1612 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +52,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		850B2E43234485A2002F0129 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				850B2E3023446513002F0129 /* Card.swift */,
+				850B2E3723446564002F0129 /* Move.swift */,
+				850B2E2E234464FF002F0129 /* Input.swift */,
+				850B2E3223446531002F0129 /* Hand.swift */,
+				850B2E4123447E73002F0129 /* Hint.swift */,
+				850B2E3D23446F88002F0129 /* Player.swift */,
+				850B2E3B23446600002F0129 /* Game.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
 		851B0BD423416AD500EA1612 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				851B0BE023416AD500EA1612 /* main.swift */,
+				850B2E43234485A2002F0129 /* Data Model */,
 			);
 			path = Blackjack;
 			sourceTree = "<group>";
@@ -120,6 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850B2E3323446531002F0129 /* Hand.swift in Sources */,
+				850B2E2F234464FF002F0129 /* Input.swift in Sources */,
+				850B2E3C23446600002F0129 /* Game.swift in Sources */,
+				850B2E3123446513002F0129 /* Card.swift in Sources */,
+				850B2E3823446564002F0129 /* Move.swift in Sources */,
+				850B2E4223447E73002F0129 /* Hint.swift in Sources */,
+				850B2E3E23446F88002F0129 /* Player.swift in Sources */,
 				851B0BE123416AD500EA1612 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
